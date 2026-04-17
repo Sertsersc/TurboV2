@@ -1,0 +1,7 @@
+R_DEF: Internal format may change without notice
+local
+drawable robot
+id btn_mic
+id btn_next
+id btn_sms
+layout activity_permission

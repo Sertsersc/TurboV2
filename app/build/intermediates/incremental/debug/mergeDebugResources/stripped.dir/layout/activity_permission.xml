@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#121212"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turbo v2.0 Kurulum"
+        android:textColor="#BB86FC"
+        android:textSize="28sp"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btn_mic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Mikrofon İzni Ver"
+        android:backgroundTint="#1E1E1E"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btn_sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. SMS ve Rehber İzni Ver"
+        android:backgroundTint="#1E1E1E"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="SONRAKİ"
+        android:enabled="false"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#03DAC5"/>
+</LinearLayout>
