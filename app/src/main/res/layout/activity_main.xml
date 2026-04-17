@@ -6,9 +6,18 @@
     android:gravity="center"
     android:background="#121212">
 
-    <Button
-        android:id="@+id/btnNext"
+    <TextView
+        android:id="@+id/tvGreeting"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="DEVAM ET"/>
+        android:text="Merhaba"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnMic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Konuş"
+        android:layout_marginTop="20dp"/>
 </LinearLayout>

@@ -13,7 +13,6 @@ class PermissionActivity : AppCompatActivity() {
         binding = ActivityPermissionBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnNext.isEnabled = true
         binding.btnNext.setOnClickListener {
             startActivity(Intent(this, MainActivity::class.java))
             finish()

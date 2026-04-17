@@ -13,11 +13,10 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val name = getSharedPreferences("Turbo", MODE_PRIVATE).getString("name", "Musab")
-        binding.tvGreeting.text = "Merhaba $name, seni dinliyorum..."
+        binding.tvGreeting.text = "Seni dinliyorum Musab..."
 
         binding.btnMic.setOnClickListener {
-            Toast.makeText(this, "Dinleme başlatıldı", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Mikrofon aktif!", Toast.LENGTH_SHORT).show()
         }
     }
 }
